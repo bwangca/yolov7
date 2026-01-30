@@ -1,0 +1,39 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: train/images
+val: test/images
+test: test/images
+
+# number of classes
+nc: 30
+
+# class names
+names: ['ACV',
+ 'BALL_VALVE',
+ 'BUTTERFLY_VALVE',
+ 'CAPPED_PIPE',
+ 'CARBON_DIOXIDE',
+ 'CBV',
+ 'CENTER_LINE_REDUCER',
+ 'CHECK_VALVE',
+ 'DETAIL_LEGNED',
+ 'DIRECTION_OF_FLOW',
+ 'ECCENTRIC_REDUCER',
+ 'ELBOW_HVAC',
+ 'ENDPOINT_TYPE_A',
+ 'ENDPOINT_TYPE_B',
+ 'EXHAUST_DUCT',
+ 'FIRE_DAMPER',
+ 'GATE_VALVE',
+ 'MANUAL_BALANCING_DAMPER',
+ 'MOP_SINK',
+ 'PERIMETER_DIFFUSER',
+ 'PIPE_UP',
+ 'RETURN_AIR_GRILLE',
+ 'RETURN_DUCT',
+ 'RETURN_DUCT_DOWN',
+ 'ROUND_DUCT_DOWN',
+ 'STRAINER',
+ 'SUPPLY_AIR_DIFFUSER',
+ 'SUPPLY_OR_OUTSIDE_AIR_DUCT',
+ 'THERMOSTAT',
+ 'Y_JUNCTION']
