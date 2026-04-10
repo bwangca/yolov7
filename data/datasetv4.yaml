@@ -1,0 +1,28 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: train/images
+val: test/images
+test: test/images
+
+# number of classes
+nc: 18
+
+# class names
+names: ['CENTER_LINE_REDUCER',
+ 'CIRCULAR_SUPPLY_AIR_DIFFUSER',
+ 'DAMPER_TYPE_1',
+ 'ECCENTRIC_REDUCER',
+ 'ELBOW_HVAC',
+ 'ELBOW_RECTANGULAR',
+ 'EXHAUST_DUCT',
+ 'EXTERNAL_DISCHARGE_LOUVRE',
+ 'EXTERNAL_INTAKE_LOUVRE',
+ 'PERIMETER_DIFFUSER',
+ 'RADIAL_VANE_SWIRL_DIFFUSER',
+ 'RETURN_AIR_GRILLE',
+ 'RETURN_DUCT',
+ 'SUPPLY_AIR_DIFFUSER',
+ 'SUPPLY_OR_OUTSIDE_AIR_DUCT',
+ 'THERMOSTAT',
+ 'VARIABLE_AIR_VOLUME_BOX',
+ 'VCD']
+
